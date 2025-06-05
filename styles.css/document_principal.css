@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*#region Imports */
+@import url(variaveis_globais.css);
+@import url(mobile_responsive.css);
+@import url(icons_awesome/css/font-awesome.min.css);
+/* #endregion Imports */
+
+/* #region Global */
+
+* {
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+/* #endregion Global */
+
+/* #region Header */
+
+
+/*========== header principal ==========*/
+#container_header {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-elements);
+    position: relative;
+}
+/* ========== header principal ==========*/
+
+/* ========== Navbar ========== */
+#container_header .logo .logo_image{ 
+    width: 100px;
+}
+
+#container_header .navbar_menu {
+    display: flex;
+}
+#container_header .navbar_menu ul {
+    display: flex;
+}
+
+#container_header .navbar_menu ul a{
+    padding: 0 5px;
+}
+
+#container_header .navbar_menu ul a:hover{
+    padding: 0 5px;
+}
+/* ========== Navbar ========== */
+
+/* #endregion Header */

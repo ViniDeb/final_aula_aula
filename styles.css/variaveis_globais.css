@@ -1,0 +1,14 @@
+/* #region varíaveis */
+
+:root {
+    /* background */
+    --background-all: white;
+    --background-elements: rgb(255, 81, 0);
+    /* background */
+
+    /* texto */
+    --color-text-primaria: black;
+    --color-text-secundaria: white;
+    /* texto */
+}
+/* #endregion varíaveis */
